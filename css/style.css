@@ -1,0 +1,76 @@
+/* This is how you make comments in CSS */
+
+body {
+	background-color: #F7E1F7;
+	background-image: url(../images/BG.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+	background-color: rgba(213,215,245,0.85);
+	margin: 0 auto;
+	border-radius: 20px;
+	padding: 20px;
+	width:600px;
+	box-shadow: 0 0 20px 5px rgba(213, 215, 245, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+	.main {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Lora', serif;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px pink;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	letter-spacing: 5px;
+	text-shadow: 2px 2px 2px pink;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	border: 5px #FACAF8 solid;
+	border-radius: 10%;
+}
+
+h3	{
+	font-size: 24px;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+h3:hover {
+	text-decoration: underline;
+}
+
+p,
+ul,
+ol {
+	list-style: none;
+	line-height: 1.7;
+	padding-left: 0	;
+}
+
+a {
+	color: #101BB5;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #aa0066;
+	text-decoration: underline;
+}
